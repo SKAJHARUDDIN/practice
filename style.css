@@ -1,0 +1,38 @@
+.box{
+    width: 600px;
+    height: 700px;
+    background: #777;
+    position: relative;
+    overflow: hidden;
+}
+.box .box0{
+    width: 350px;
+    height: 70px;
+    position: absolute;
+    top: 58px;
+    left: -92px;
+    background: white;
+    transform: rotate(-45deg);
+}
+.box1{
+    width: 222px;
+    height: 222px;
+    background: transparent;
+    font-size: 60px;
+    line-height: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+}
+.box h1{
+    margin-left: 42px;
+}
+.box2{
+    width: 350px;
+    height: 90px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+}
